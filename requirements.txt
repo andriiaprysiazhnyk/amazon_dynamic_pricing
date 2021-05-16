@@ -1,0 +1,9 @@
+torch==1.8.1
+tensorboard==2.5.0
+scikit-learn==0.24.2
+PyYAML==5.4.1
+pandas
+keepa==1.2.1
+altair==4.1.0
+matplotlib==3.3.4
+statsmodels

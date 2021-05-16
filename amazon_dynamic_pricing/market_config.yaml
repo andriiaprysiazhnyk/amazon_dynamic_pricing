@@ -1,0 +1,11 @@
+n_interactions: 30
+min_price: 2
+max_price: 49
+
+demand_model_path: C:\Users\andrii.prysiazhnyk\Documents\data\bachelor_thesis\models\demand_forecasting_model.pkl
+demand_residuals_parameters_path: C:\Users\andrii.prysiazhnyk\Documents\data\bachelor_thesis\models\demand_residuals_parameters.npy
+adspend_model_path: C:\Users\andrii.prysiazhnyk\Documents\data\bachelor_thesis\models\adspend_forecasting_model.pkl
+adspend_residuals_parameters_path: C:\Users\andrii.prysiazhnyk\Documents\data\bachelor_thesis\models\adspend_residuals_parameters.npy
+inventory_increase_parameters_path: C:\Users\andrii.prysiazhnyk\Documents\data\bachelor_thesis\models\inventory_increase_parameters.npy
+price_rank_curve_coefficients_path: C:\Users\andrii.prysiazhnyk\Documents\data\bachelor_thesis\models\price_rank_curve_coefficients.npy
+starting_states_path: C:\Users\andrii.prysiazhnyk\Documents\data\bachelor_thesis\amazon_data\starting_states.csv

@@ -1,0 +1,19 @@
+training_logs_path: C:\Users\andrii.prysiazhnyk\Documents\data\bachelor_thesis\agents_training\policy_gradients
+
+agent:
+  type: discrete
+  common_hidden_layers: [64, 64]
+  policy_hidden_layers: []
+  value_hidden_layers: []
+  bins_number: 15
+  discount_factor: 0.99
+  consecutive_episodes: 100
+
+optimizer:
+  name: adam
+  lr: 0.0008
+
+num_epochs: 600
+batch_size: 64
+alpha: 2
+beta: 1.5

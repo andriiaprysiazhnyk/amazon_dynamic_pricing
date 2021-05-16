@@ -1,0 +1,6 @@
+evaluation_logs_path: C:\Users\andrii.prysiazhnyk\Documents\data\bachelor_thesis\agents_evaluation
+validation_episodes: 300
+
+agent:
+  type: tabular
+  path: C:\Users\andrii.prysiazhnyk\Documents\data\bachelor_thesis\agents_training2\tabular_q_learning\tabular-2021-05-15-00-35-54\agent.pkl

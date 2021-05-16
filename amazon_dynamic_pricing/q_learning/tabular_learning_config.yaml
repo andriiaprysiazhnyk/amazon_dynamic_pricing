@@ -1,0 +1,11 @@
+training_logs_path: C:\Users\andrii.prysiazhnyk\Documents\data\bachelor_thesis\agents_training\tabular_q_learning
+
+agent:
+  type: tabular
+  bins_number: 4
+  learning_rate: 0.05
+  discount_factor: 0.95
+  exploration_rate: 0.99
+  exploration_decay_rate: 0.99995
+
+last_epsilon: 0.05

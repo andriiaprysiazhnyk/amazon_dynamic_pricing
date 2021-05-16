@@ -1,0 +1,19 @@
+training_logs_path: C:\Users\andrii.prysiazhnyk\Documents\data\dynamic_pricing\logs\policy_gradients2
+
+agent:
+  type: continuous
+  common_hidden_layers: [50]
+  policy_hidden_layers: []
+  value_hidden_layers: []
+  discount_factor: 0.99
+  consecutive_episodes: 150
+
+
+optimizer:
+  name: adam
+  lr: 0.001
+
+num_epochs: 800
+batch_size: 64
+alpha: 0.5
+beta: 0

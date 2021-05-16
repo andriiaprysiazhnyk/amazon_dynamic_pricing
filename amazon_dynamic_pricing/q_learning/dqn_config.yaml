@@ -1,0 +1,27 @@
+training_logs_path: C:\Users\andrii.prysiazhnyk\Documents\data\bachelor_thesis\agents_training\dqn
+
+agent:
+  type: dqn
+  layers: [64, 64]
+  bins_number: 10
+  discount_factor: 0.99
+  copy_timestamps: 200
+  learning_starts: 200
+  consecutive_episodes: 150
+
+  loss:
+    name: mse
+
+  optimizer:
+    name: adam
+    lr: 0.0006
+
+  replay_buffer:
+    buffer_size: 1000
+    batch_size: 64
+
+  exploration:
+    exploration_rate: 0.99
+    exploration_decay_rate: 0.9998
+
+last_epsilon: 0.05
